@@ -22,8 +22,6 @@ cd myfirstreact
 npm start
 ```
 
-___________________________________
-
 Go to myfirstreact\src\App.js
 
 ```javascript

@@ -55,7 +55,7 @@ export default App;
 
 Change any parts and save file. The server updates automatically
 
-Replace all the content inside the <div className="App"> with a <h1> element.
+Replace all the content inside the ```<div className="App">``` with a ```<h1>``` element.
 
 See the changes in the browser when you click Save.
 

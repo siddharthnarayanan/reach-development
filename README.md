@@ -75,4 +75,36 @@ function App() {
 export default App;
 ```
 
+Now you have a React Environment on your computer, and you are ready to learn more about React.
+
+Now start by stripping down the src folder to only contain two files: index.js and index.html. Put the rest in a backup folder. You'll have to create index.html
+
+index.js:
+
+```javascript
+import React from 'react';
+import ReactDOM from 'react-dom';
+
+const myfirstelement = <h1>Hello React!</h1>
+
+ReactDOM.render(myfirstelement, document.getElementById('root'));
+```
+index.html:
+
+```html
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <title>React App</title>
+  </head>
+  <body>
+
+    <div id="root"></div>
+
+  </body>
+</html>
+```
+
 

@@ -1,4 +1,4 @@
-# react-development
+# React-development
 
 Install Create React App, it is an officially supported package/way to create single-page React applications
 
@@ -107,4 +107,26 @@ index.html:
 </html>
 ```
 
+Update index.html 
 
+```html
+<!DOCTYPE html>
+<html>
+
+<body>
+  
+<script>
+class Car {
+  constructor(name) {
+    this.brand = name;
+  }
+}
+
+mycar = new Car("Ford");
+
+document.write(mycar.brand);
+</script>
+
+</body>
+</html>
+```
